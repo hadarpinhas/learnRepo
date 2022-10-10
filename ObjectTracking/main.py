@@ -4,7 +4,9 @@ from tracker import *
 # create tracker object
 tracker = EuclideanDistTracker()
 
-cap = cv2.VideoCapture("highway.mp4")
+dataPath = r'C:\Users\hadarp\myProject\data\objectDetectionMovie'
+cap = cv2.VideoCapture(dataPath + "/" + "highway.mp4")
+
 
 # objectr detecion static background 
 object_detector = cv2.createBackgroundSubtractorMOG2(history=100,varThreshold=40)
