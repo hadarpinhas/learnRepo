@@ -1,2 +1,3 @@
+virtual enviroments:
 C:\Users\hadarp\myProject\myVenv\Scripts\activate.bat
 C:\Users\hadarp\myProject\myVenv\Scripts\activate.ps1
